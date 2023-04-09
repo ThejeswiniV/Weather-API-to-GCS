@@ -1,10 +1,10 @@
 # Weather-API-to-GCS
-## Building a Cloud Function to Fetch and Store Weather Data(OpenMeteo) in Cloud Storage.
+# Building a Cloud Function to Fetch and Store Weather Data(OpenMeteo) in Cloud Storage.
  
 We'll start by setting up a Cloud Storage bucket and then create a Cloud Function that makes an API request to fetch the weather data. The function will then store the data in a file in the Cloud Storage bucket.
 
 
-## What we will need for this tutorial:
+# What we will need for this tutorial:
 
 1. One free API to get various information on weather conditions all around the globe(OpenMeteo).
 2. In this article, we will use some service from Google: Cloud Storage, Cloud Function, Cloud Scheduler.
