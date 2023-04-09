@@ -32,16 +32,10 @@ Note: Cloud Functions can be considered as small containers that will execute th
 They support different languages such as: .NEt, Go, Java, Node, PHP, Python, or Ruby.
 
 1. We create a function called "Weather_update", Region "asia-south1" and triggered by "Pub/Sub" messages of the "weather" topic.
-
 2. Now Configuration is over, Let's move to code, Choose "Python 3.9" as runtime and Entry point as "api_to_gcs"
-
 3. main.py
-
 4. requirements.txt
-
 5. Click on "Deploy" and wait for the Cloud Function to be active:
-
-As we want to make sure that the function is working well, we click on "Test function" to immediately run it:
+6.As we want to make sure that the function is working well, we click on "Test function" to immediately run it:
 The logs do confirm the proper execution of the function.
-
-6.Check your data will be available in GCS.
+7.Check your data will be available in GCS.
